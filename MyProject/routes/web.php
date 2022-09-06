@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('helloWorld');
 });
+
+Route::get('/worldpage', function () {
+    return view('world');
+});
